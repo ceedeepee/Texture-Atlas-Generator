@@ -1,4 +1,10 @@
 # Texture Atlas Generator
+## What's New
+Version 2.0 introduces significant improvements:
+ - Enhanced detection of sprite regions by refining detection of transparent pixels.
+ - New filtering algorithm to remove overlapping or contained bounding boxes.
+ - Customizable parameters for alpha threshold, min_width, and min_height.
+ - Improved performance on larger sprite sheets.
 
 A simple Python script that automatically generates texture atlas data from sprite sheets by detecting non-transparent regions.
 
@@ -13,7 +19,7 @@ This tool analyzes a sprite sheet image with transparency and automatically gene
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11 (tensorflow requires 3.11)
 - OpenCV (`cv2`)
 
 ## Installation
