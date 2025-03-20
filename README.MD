@@ -26,20 +26,20 @@ This tool analyzes a sprite sheet image with transparency and automatically gene
 ## Installation
 Follow these steps (in reverse order of execution):
 
-5. Upgrade pip:
-   pip install --upgrade pip
-
-4. Change to your project directory:
-   cd ~/path/to/your/project
-
-3. Create a virtual environment using Python 3.11:
-   /usr/local/opt/python@3.11/bin/python3.11 -m venv venv311
-
-2. Activate the virtual environment:
+1. Activate your virtual environment:
    source venv311/bin/activate
 
-1. Install required dependencies:
-   pip install tensorflow numpy Pillow opencv-python rectpack
+2. Create a virtual environment using Python 3.11:
+   /usr/local/opt/python@3.11/bin/python3.11 -m venv venv311
+
+3. Change to your project's directory:
+   cd ~/path/to/your/project
+
+4. Install required dependencies:
+   pip install tensorflow numpy Pillow opencv-python
+
+5. Upgrade pip:
+   pip install --upgrade pip
 
 Note: The commands "brew update" and "brew install python@3.11" are no longer needed.
 
